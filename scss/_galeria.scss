@@ -1,0 +1,18 @@
+$rosa: rgb(248, 46, 130);
+$celeste: rgb(127, 182, 214);
+$amarillo: rgb(235, 212, 111);
+h1{
+    color: $rosa;
+    height: 50px;
+    text-align: center;
+}
+.galeria{
+    width: 250px;
+    height: 150px;
+    border: 2px double $amarillo;
+}
+main .galas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
